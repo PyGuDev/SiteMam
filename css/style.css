@@ -1,0 +1,35 @@
+body {
+    min-height:100%;
+    width: 100%;
+}
+.bg-os {
+    background-color: #429FEF;
+}
+.bg-wh{
+    color: white !important;
+}
+.nav-size{
+    width: 70% !important;
+}
+.body{
+    margin: 20px 0px;
+    box-shadow: 4px 4px 4px 4px #c0c0c0;
+}
+.img-post{
+    width: 340px;
+}
+.icons img{
+    width: 35px;
+}
+footer {
+    padding-bottom: 30px;
+    background: #429FEF;
+    width: 100%;
+    
+}
+.nav-item a:hover {
+    background-color: rgb(42, 110, 170);
+}
+navbar-brand:hover {
+    color: rgb(148, 144, 144) !important;
+}

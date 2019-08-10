@@ -1,0 +1,10 @@
+.next a {
+    color: rgb(245, 139, 139);
+    font-size: 14px;
+    float: right;
+    padding-right: 2em;
+}
+.next a:hover {
+    color: rgb(245, 107, 107);
+
+}

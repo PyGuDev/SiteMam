@@ -1,0 +1,9 @@
+body{
+  background: url("/html/img/фоны/Dol4oECXgAYfDzN.jpeg");
+  height: 100%;
+}
+.welcome {
+  color: white;
+  text-align: center;
+  padding: 300px; 
+}
