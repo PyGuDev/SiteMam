@@ -1,0 +1,14 @@
+.table-color {
+    background-color: #f9f9f9;
+    color: #525252;
+    margin-bottom: 0 !important;
+}
+.table-color a{
+    color: #525252;
+}
+.btn-success {
+    color: white !important;
+}
+.table td{
+    vertical-align: middle;
+}

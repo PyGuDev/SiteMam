@@ -1,0 +1,37 @@
+{%extends 'base.html'%}
+
+{% load static%}
+{%block css%}
+<link rel="stylesheet" href="{% static 'news/css/news.css'%}">
+{%endblock%}
+{%block body%}
+{%for item in object_list%}
+{% if item != None%}
+<div class="container bg-white body-content">
+    <div class="row body article">
+        {%if item.img%}
+        <div class="col-lg-4 col-sm-12"><img class="img-post" src="{{item.img.url}}" alt=""></div>
+        <div class="col-lg-8 col-sm-12 text-center">
+            <h3 style=" padding-top: 30px; color: #746969;">{{item.title}}</h3>
+            <p style="color: #646464;">{{item.textcut}}</p>
+            <button type="button" class="btn btn-light" ><a href="{%url 'newsdetail' pk=item.pk%}">Подробнее</a></button>
+        </div>
+        {%else%}
+        <div class="col-12 text-center">
+            <h3 style=" padding-top: 30px; color: #746969;">{{item.title}}</h3>
+            <p style="color: #646464;">{{item.textcut}}</p>
+            <button type="button" class="btn btn-light" ><a href="{%url 'newsdetail' pk=item.pk%}">Подробнее</a></button>
+        </div>
+        {%endif%}
+        <div class="icons-post">
+            <img src="{% static 'news/img/icons/likeIcon.png' %}">
+            <span>1999,0</span>
+            <img src="{% static 'news/img/icons/eyeIcon.png' %}">
+             <span>1999,0</span>
+        </div>
+    </div>
+</div>
+
+{%endif%}
+{%endfor%}
+{%endblock%} 

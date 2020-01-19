@@ -1,0 +1,48 @@
+{%extends 'base.html'%}
+{%block body%}
+{%load static%}
+<div class="container bg-white">
+    <div class="row body ">
+        <table class="table table-bordered table-color" id="tableOne">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Название</th>
+                <th scope="col">Изображение</th>
+                <th scope="col">Размер</th>
+                <th scope="col">Формат файла</th>
+                <th scope="col">Ссылка</th>
+              </tr>
+            </thead>
+            <tbody>
+            {%for item in object_list%}
+            {% if item != None%}
+              <tr>
+                <th scope="row">{{item.pk}}</th>
+                <td>{{item.title}}</td>
+                  {%if item.img.url != None%}
+                <td><img src="{{item.img.url}}"></td>
+                  {%else%}
+                  <td><img src="{% static 'base/img/icons/iconfile.png'%}"></td>
+                  {%endif%}
+                  {% if item.file.size != None%}
+                <td>{{item.file.size | filesizeformat}}</td>
+                  {% else%}
+                <td>{{item.size}}</td>
+                  {%endif%}
+                <td>{{item.typefile}}</td>
+                  {% if item.file.url != None%}
+                <td><a class="btn btn-success" href="{% url 'downloadfile' item.pk %}">Downloads</a></td>
+                  {% else %}
+                <td><a href="{{item.linkfile}}">{{item.linkfile}}</a></td>
+                  {%endif%}
+              </tr>
+              {%endif%}
+            {%endfor%}
+            </tbody>
+          </table>
+    </div>
+</div>
+</div>
+
+{%endblock%} 

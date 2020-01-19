@@ -1,0 +1,46 @@
+
+.next a {
+    color: rgb(245, 139, 139);
+    font-size: 14px;
+    float: right;
+    padding-right: 2em;
+}
+.next a:hover {
+    color: rgb(245, 107, 107);
+
+}
+.detImg{
+    width: inherit;
+}
+.icons-post{
+    font-size: 14px;
+}
+.icons-post img{
+    width: 20px;
+    height: 20px;
+    margin: 10px 3px 10px 20px;
+}
+
+#content{
+    height: 80%;
+}
+
+.article p{
+    font-size: 1.1em;
+}
+@media(max-width: 500px){
+.article p{
+    font-size: 0.8em;
+}
+}
+
+footer{
+	height: auto;
+	width: 100%;
+	display: block;
+}
+button{
+    float: right;
+    margin-bottom: 40px!important;
+    margin-right: 40px!important;
+}

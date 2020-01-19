@@ -1,0 +1,21 @@
+{%extends 'base.html'%}
+{% load static%}
+{%block css%}
+<link rel="stylesheet" href="{% static 'news/css/footer.css'%}">
+{%endblock%}
+{%block body%}
+{% if object != None%}
+<div class="container bg-white">
+    <div class="row body">
+        {%if object.img%}
+        <div class="col-12 col-xs-12" style="padding: 0"><img class="img-post detImg" src="{{object.img.url}}" alt=""></div>
+        {%endif%}
+        <div class="col-12 col-xs-12 text-center" style="padding-left: 30px">
+            <h3 style=" padding-top: 30px; padding-bottom: 10px; color: #746969;">{{object.title}}</h3>
+            <p style="color: #646464;padding-left: inherit;padding-right: inherit;padding-bottom: 6rem;">{{object.text}}</p>
+        </div>
+    </div>
+</div>
+{%endif%}
+
+{%endblock%} 
