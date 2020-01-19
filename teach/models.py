@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
 class TeachFile(models.Model):
     title = models.CharField(max_length=120)
+    description = models.TextField(blank=True)
     file = models.FileField(upload_to="media/upload/files/", blank=True)
     img = models.ImageField(upload_to="media/upload/file/", blank=True)
     size = models.IntegerField(blank=True)

@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c3fcf9f6-baac-4f04-bd04-6b546c782bbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/base/css/teach.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/base/css/teach.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teach/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/teach/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/teach/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/teach/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,9 +54,25 @@
       <option name="presentableId" value="Default" />
       <updated>1579115477297</updated>
     </task>
+    <task id="LOCAL-00001" summary="add new teach structur">
+      <created>1579468464611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579468464611</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add new teach structur" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new teach structur" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1531" y="330" width="777" height="814" key="CommitChangelistDialog2" timestamp="1579468464516">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state x="1531" y="330" width="777" height="814" key="CommitChangelistDialog2/0.27.2560.1413@0.27.2560.1413" timestamp="1579468464516" />
     <state x="936" y="560" key="com.intellij.ide.util.TipDialog" timestamp="1579115482165">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
