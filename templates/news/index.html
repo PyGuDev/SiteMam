@@ -3,12 +3,13 @@
 {% load static%}
 {%block css%}
 <link rel="stylesheet" href="{% static 'news/css/news.css'%}">
+
 {%endblock%}
 {%block body%}
 {%for item in object_list%}
 {% if item != None%}
 <div class="container bg-white body-content">
-    <div class="row body article">
+    <div class="row body">
         {%if item.img%}
         <div class="col-lg-4 col-sm-12"><img class="img-post" src="{{item.img.url}}" alt=""></div>
         <div class="col-lg-8 col-sm-12 text-center">
