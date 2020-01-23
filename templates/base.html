@@ -31,7 +31,7 @@
           <div class="navbar-collapse collapse" id="navbarsExample03" style="">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link bg-wh" href="#">Обо мне</a>
+                <a class="nav-link bg-wh" href="{% url 'about'%}">Обо мне</a>
               </li>
               <li class="nav-item">
                  <a class="nav-link bg-wh" href="{% url 'news'%}">Новости</a>
@@ -39,12 +39,12 @@
               <li class="nav-item">
                  <a class="nav-link bg-wh" href="{% url 'teach'%}">Учителям</a>
               </li>
-               <li class="nav-item">
+             <!--  <li class="nav-item">
                  <a class="nav-link bg-wh" href="#">Ученикам</a>
                </li>
                <li class="nav-item">
                  <a class="nav-link bg-wh" href="#">Родителям</a>
-               </li>
+               </li>-->
 
             </ul>
               {% csrf_token %}

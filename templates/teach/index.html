@@ -24,7 +24,11 @@
             <h3 style=" padding-top: 30px; color: #746969;">{{item.title}}</h3>
             <p style="color: #646464;">Тип файла: {{item.typefile}}</p>
             <p style="color: #646464;">{{item.description}}</p>
+             {% if item.file.url != None%}
+            <button type="button" class="btn btn-danger" ><a href="{% url 'downloadfile' item.pk %}">Скачать</a></button>
+            {% else %}
             <button type="button" class="btn btn-danger" ><a href="{{item.linkfile}}">Скачать</a></button>
+            {% endif %}
         </div>
         {%endif%}
         <div class="icons-post">
