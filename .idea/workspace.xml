@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3fcf9f6-baac-4f04-bd04-6b546c782bbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/auth/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemam/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitemam/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemam/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitemam/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main/img/icons/Добавить Пост _ Административный сайт Django_files/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/main/img/icons/Добавить Пост _ Административный сайт Django_files/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teach/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/teach/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579115477297</updated>
       <workItem from="1579868023173" duration="1118000" />
-      <workItem from="1580059005898" duration="18819000" />
+      <workItem from="1580059005898" duration="20444000" />
     </task>
     <task id="LOCAL-00001" summary="add new teach structur">
       <created>1579468464611</created>
@@ -172,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580070679075</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add auth">
+      <created>1580078815301</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580078815301</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,13 +206,14 @@
     <MESSAGE value="resize footer" />
     <MESSAGE value="translate to Russion&#10;styling admin panel" />
     <MESSAGE value="registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="registration" />
+    <MESSAGE value="add auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="add auth" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1548" y="571" width="777" height="814" key="CommitChangelistDialog2" timestamp="1580078758628">
+    <state x="1548" y="571" width="777" height="814" key="CommitChangelistDialog2" timestamp="1580078815073">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
-    <state x="1548" y="571" width="777" height="814" key="CommitChangelistDialog2/0.27.2560.1413@0.27.2560.1413" timestamp="1580078758628" />
+    <state x="1548" y="571" width="777" height="814" key="CommitChangelistDialog2/0.27.2560.1413@0.27.2560.1413" timestamp="1580078815073" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1580067579411">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>

@@ -7,11 +7,11 @@ class PostManager(models.Manager):
 
 
 class NewsPost(models.Model):
-    title = models.CharField(verbose_name="Название", max_length=30, db_index=True)
-    img = models.ImageField(verbose_name="Изображение", upload_to="media/upload", blank=True)
-    text = models.TextField(verbose_name="Текс", blank=True, db_index=True)
-    textcut = models.TextField(verbose_name="Сокращенный текст", blank=True, db_index=True)
-    pub_date = models.DateField(verbose_name="Дата публикации")
+    title = models.CharField(max_length=30, db_index=True)
+    img = models.ImageField(upload_to="media/upload", blank=True)
+    text = models.TextField(blank=True, db_index=True)
+    textcut = models.TextField(blank=True, db_index=True)
+    pub_date = models.DateField()
     avilable = models.BooleanField(default=True)
     objects = PostManager()
 
