@@ -8,6 +8,9 @@ class NewsPage(ListView):
     model = NewsPost
     template_name = "news/index.html"
 
+
 class NewsPageDetail(DeleteView):
     model = NewsPost
     template_name = "news/detail.html"
+
+

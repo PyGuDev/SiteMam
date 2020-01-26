@@ -10,6 +10,7 @@ class NewsPost(models.Model):
     text = models.TextField(blank=True, db_index=True)
     textcut = models.TextField(blank=True, db_index=True)
     avilable = models.BooleanField(default=True)
+    views = models.IntegerField(default=0)
     objects = PostManager()
 
     def __str__(self):

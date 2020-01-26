@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c3fcf9f6-baac-4f04-bd04-6b546c782bbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +32,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/teach" />
   </component>
   <component name="RecentsManager">
@@ -61,6 +62,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579115477297</updated>
+      <workItem from="1579868023173" duration="1118000" />
+      <workItem from="1580059005898" duration="246000" />
     </task>
     <task id="LOCAL-00001" summary="add new teach structur">
       <created>1579468464611</created>
@@ -90,19 +93,30 @@
       <option name="project" value="LOCAL" />
       <updated>1579741845051</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix gramathic">
+      <created>1579796927499</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579796927499</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new teach structur" />
     <MESSAGE value="add favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add favicon" />
+    <MESSAGE value="fix gramathic" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix gramathic" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1531" y="330" width="777" height="814" key="CommitChangelistDialog2" timestamp="1579741845003">
+    <state x="1531" y="330" width="777" height="814" key="CommitChangelistDialog2" timestamp="1579796927307">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
-    <state x="1531" y="330" width="777" height="814" key="CommitChangelistDialog2/0.27.2560.1413@0.27.2560.1413" timestamp="1579741845003" />
+    <state x="1531" y="330" width="777" height="814" key="CommitChangelistDialog2/0.27.2560.1413@0.27.2560.1413" timestamp="1579796927307" />
     <state x="936" y="560" key="com.intellij.ide.util.TipDialog" timestamp="1579115482165">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
