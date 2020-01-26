@@ -45,10 +45,8 @@
                </li>-->
 
             </ul>
-              {% csrf_token %}
-              <form class="form-inline my-2 my-md-0" method="GET" action="{% url 'article_search' %}">
-                <input class="form-control" type="text" name="q" placeholder="Search">
-             </form>
+              {%block search%}
+              {% endblock %}
               <div class="icons">
                 <img src="{% static 'base/img/icons/student.png'%}" alt="">
             </div>

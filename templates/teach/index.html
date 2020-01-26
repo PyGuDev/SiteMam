@@ -1,9 +1,14 @@
 {%extends 'base.html'%}
-{%block body%}
 {%load static%}
+{%block search%}
+{%csrf_token%}
+<form class="form-inline my-2 my-md-0" method="GET" action="{% url 'searchfile' %}">
+    <input class="form-control" type="text" name="q" placeholder="Поиск">
+</form>
+{%endblock%}
+{%block body%}
 {%block css%}
 <link rel="stylesheet" href="{% static 'base/css/teach.css'%}">
-
 {%endblock%}
 {%for item in object_list%}
 {% if item != None%}
@@ -31,12 +36,12 @@
             {% endif %}
         </div>
         {%endif%}
-        <div class="icons-post">
+       <!-- <div class="icons-post">
             <img src="{% static 'news/img/icons/likeIcon.png' %}">
             <span>1999,0</span>
             <img src="{% static 'news/img/icons/eyeIcon.png' %}">
              <span>1999,0</span>
-        </div>
+        </div>-->
     </div>
 </div>
 

@@ -3,7 +3,12 @@
 {% load static%}
 {%block css%}
 <link rel="stylesheet" href="{% static 'news/css/news.css'%}">
-
+{%endblock%}
+{%block search%}
+{%csrf_token%}
+<form class="form-inline my-2 my-md-0" method="GET" action="{% url 'article_search' %}">
+    <input class="form-control" type="text" name="q" placeholder="Поиск">
+</form>
 {%endblock%}
 {%block body%}
 {%for item in object_list%}
@@ -24,12 +29,12 @@
             <button type="button" class="btn btn-light" ><a href="{%url 'newsdetail' pk=item.pk%}">Подробнее</a></button>
         </div>
         {%endif%}
-        <div class="icons-post">
+       <!-- <div class="icons-post">
             <img src="{% static 'news/img/icons/likeIcon.png' %}">
             <span>1999,0</span>
             <img src="{% static 'news/img/icons/eyeIcon.png' %}">
              <span>1999,0</span>
-        </div>
+        </div>-->
     </div>
 </div>
 
