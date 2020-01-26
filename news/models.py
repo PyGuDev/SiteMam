@@ -1,8 +1,10 @@
 from django.db import models
 
+
 class PostManager(models.Manager):
     def all(self, *args, **kwargs):
         return super(PostManager, self).get_queryset().filter(avilable=True)
+
 
 class NewsPost(models.Model):
     title = models.CharField(max_length=30, db_index=True)
