@@ -23,6 +23,6 @@ urlpatterns = [
     path('', include('main.urls')),
     path('news/', include('news.urls')),
     path('teach/', include('teach.urls')),
-    path('accounts/', include('django.contrib.registration.urls')),
+    path('accounts/', include('auth.urls')),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
