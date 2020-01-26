@@ -2,5 +2,9 @@ from django.contrib import admin
 from .models import NewsPost
 
 
-admin.site.register(NewsPost)
-# Register your models here.
+@admin.register(NewsPost)
+class NewsPostAdmin(admin.ModelAdmin):
+    list_display = ('title', 'avilable')
+    list_filter = ('avilable',)
+
+

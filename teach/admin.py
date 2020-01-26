@@ -1,5 +1,8 @@
 from django.contrib import admin
 from .models import TeachFile
 
-# Register your models here.
-admin.site.register(TeachFile)
+
+@admin.register(TeachFile)
+class AdminTeachFile(admin.ModelAdmin):
+    list_display = ('title', 'typefile', 'size')
+    list_filter = ('typefile', 'size')

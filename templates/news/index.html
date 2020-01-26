@@ -1,9 +1,5 @@
 {%extends 'base.html'%}
-
 {% load static%}
-{%block css%}
-<link rel="stylesheet" href="{% static 'news/css/news.css'%}">
-{%endblock%}
 {%block search%}
 {%csrf_token%}
 <form class="form-inline my-2 my-md-0" method="GET" action="{% url 'article_search' %}">
@@ -11,6 +7,9 @@
 </form>
 {%endblock%}
 {%block body%}
+{%block css%}
+<link rel="stylesheet" href="{% static 'news/css/news.css'%}">
+{%endblock%}
 {%for item in object_list%}
 {% if item != None%}
 <div class="container bg-white body-content">
