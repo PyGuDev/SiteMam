@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c3fcf9f6-baac-4f04-bd04-6b546c782bbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teach/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/teach/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/news/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/news/css/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579115477297</updated>
       <workItem from="1579868023173" duration="1118000" />
-      <workItem from="1580059005898" duration="20444000" />
+      <workItem from="1580059005898" duration="24090000" />
     </task>
     <task id="LOCAL-00001" summary="add new teach structur">
       <created>1579468464611</created>
@@ -172,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580078815301</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix bug">
+      <created>1580080854386</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1580080854386</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,13 +216,14 @@
     <MESSAGE value="translate to Russion&#10;styling admin panel" />
     <MESSAGE value="registration" />
     <MESSAGE value="add auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="add auth" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1548" y="571" width="777" height="814" key="CommitChangelistDialog2" timestamp="1580078815073">
+    <state x="1548" y="571" width="777" height="814" key="CommitChangelistDialog2" timestamp="1580080854289">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
-    <state x="1548" y="571" width="777" height="814" key="CommitChangelistDialog2/0.27.2560.1413@0.27.2560.1413" timestamp="1580078815073" />
+    <state x="1548" y="571" width="777" height="814" key="CommitChangelistDialog2/0.27.2560.1413@0.27.2560.1413" timestamp="1580080854289" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1580067579411">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
@@ -230,9 +240,9 @@
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
     <state x="1688" y="653" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.2560.1413@0.27.2560.1413" timestamp="1580064460603" />
-    <state x="1479" y="349" width="672" height="678" key="search.everywhere.popup" timestamp="1580067538189">
+    <state x="1479" y="349" width="672" height="678" key="search.everywhere.popup" timestamp="1580083819002">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
-    <state x="1479" y="349" width="672" height="678" key="search.everywhere.popup/0.27.2560.1413@0.27.2560.1413" timestamp="1580067538189" />
+    <state x="1479" y="349" width="672" height="678" key="search.everywhere.popup/0.27.2560.1413@0.27.2560.1413" timestamp="1580083819002" />
   </component>
 </project>

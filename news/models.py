@@ -8,6 +8,7 @@ class PostManager(models.Manager):
 
 class NewsPost(models.Model):
     title = models.CharField(max_length=30, db_index=True)
+    urlyoutube = models.CharField(max_length=255, blank=True)
     img = models.ImageField(upload_to="media/upload", blank=True)
     text = models.TextField(blank=True, db_index=True)
     textcut = models.TextField(blank=True, db_index=True)

@@ -14,9 +14,14 @@
 {% if item != None%}
 <div class="container bg-white body-content">
     <div class="row body">
+        {% if item.urlyoutube %}
+        <div class="col-lg-12 col-sm-12 text-center" style="margin-bottom: 20px">
+            <iframe class="youtube" src="https://www.youtube.com/embed/{{item.urlyoutube}}" frameborder="0" align="middle" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        {%endif%}
         {%if item.img%}
-        <div class="col-lg-4 col-sm-12"><img class="img-post" src="{{item.img.url}}" alt=""></div>
-        <div class="col-lg-8 col-sm-12 text-center">
+        <div class="col-lg-5 col-sm-12"><img class="img-post" src="{{item.img.url}}" alt=""></div>
+        <div class="col-lg-7 col-sm-12 text-center">
             <h3 style=" padding-top: 30px; color: #746969;">{{item.title}}</h3>
             <p style="color: #646464;">{{item.textcut}}</p>
             <button type="button" class="btn btn-light" ><a href="{%url 'newsdetail' pk=item.pk%}">Подробнее</a></button>
