@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3fcf9f6-baac-4f04-bd04-6b546c782bbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/main/img/about/blag.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/main/img/about/dipl.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/main/img/about/lar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/main/img/about/poch.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/main/img/about/serf.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/main/img/about/serf2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/main/img/about/serf3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/main/img/about/svid.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/news/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/about.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +52,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -52,14 +59,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/teach" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/main/img/about" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/main/img/about" />
+      <recent name="$PROJECT_DIR$/templates/teach" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/auth" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/teach" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -85,7 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1579115477297</updated>
       <workItem from="1579868023173" duration="1118000" />
-      <workItem from="1580059005898" duration="24301000" />
+      <workItem from="1580059005898" duration="24559000" />
+      <workItem from="1580416915255" duration="2844000" />
     </task>
     <task id="LOCAL-00001" summary="add new teach structur">
       <created>1579468464611</created>
@@ -185,11 +200,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580085230608</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add youtube iframe">
+      <created>1580085425730</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1580085425730</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -203,10 +225,10 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,10 +247,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add youtube iframe" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1548" y="571" width="777" height="814" key="CommitChangelistDialog2" timestamp="1580085230521">
+    <state x="1548" y="571" width="777" height="814" key="CommitChangelistDialog2" timestamp="1580085425656">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
-    <state x="1548" y="571" width="777" height="814" key="CommitChangelistDialog2/0.27.2560.1413@0.27.2560.1413" timestamp="1580085230521" />
+    <state x="1548" y="571" width="777" height="814" key="CommitChangelistDialog2/0.27.2560.1413@0.27.2560.1413" timestamp="1580085425656" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1580067579411">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
@@ -245,9 +267,9 @@
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
     <state x="1688" y="653" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.2560.1413@0.27.2560.1413" timestamp="1580064460603" />
-    <state x="1479" y="349" width="672" height="678" key="search.everywhere.popup" timestamp="1580083819002">
+    <state x="1479" y="349" width="672" height="678" key="search.everywhere.popup" timestamp="1580418853023">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
-    <state x="1479" y="349" width="672" height="678" key="search.everywhere.popup/0.27.2560.1413@0.27.2560.1413" timestamp="1580083819002" />
+    <state x="1479" y="349" width="672" height="678" key="search.everywhere.popup/0.27.2560.1413@0.27.2560.1413" timestamp="1580418853023" />
   </component>
 </project>
